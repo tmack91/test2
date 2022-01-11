@@ -10,5 +10,6 @@ jobs:
         run: echo "Hello World"
       - name: multiline script 
         run: |
-          python -version 
-          uname -r
+           python --version
+           uname -r 
+          
